@@ -6,4 +6,4 @@ Ad-hoc scripting makes microbiome analyses error-prone, difficult to scale and h
 
 
 ## 📖 What is 16S rRNA gene sequencing?
-16S rRNA gene sequencing is a widely used method to study microbial community composition and diversity. The 16S rRNA gene is highly conserved in all bacteria and archaea, making it a universal marker to identify microorganisms within a biological sample.
+The 16S rRNA gene is highly conserved in all bacteria and archaea, making it a universal marker to identify microorganisms within a biological sample. The 16S rRNA gene sequencing is a widely used method to study microbial community composition and diversity.
