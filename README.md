@@ -1,4 +1,4 @@
-[![License](https://shields.io)](https://github.com)
+![License: MIT](https://shields.io)
 
 # 16S_EndToEnd
 
