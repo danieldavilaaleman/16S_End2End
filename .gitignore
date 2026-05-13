@@ -1,0 +1,19 @@
+# raw + reference data
+data/raw/
+data/silva/
+
+# intermediates files
+results/intermediate/
+
+# FASTQ files
+*.fastq
+*.fastq.gz
+*.fq.gz
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS 
+.DS_Store
