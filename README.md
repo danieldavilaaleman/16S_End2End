@@ -1,7 +1,8 @@
 # 16S_EndToEnd
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[![Snakemake](https://shields.io≥5.6.0-brightgreen.svg)](https://snakemake.github.io)
+![Static Badge](https://img.shields.io/badge/workflow-Snakemake-green)
+
 
 A reproducible Snakemake workflow for 16S rRNA metagenomic data analysis and visualization.
 
