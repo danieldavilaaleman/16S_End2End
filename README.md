@@ -1,4 +1,4 @@
-![GitHub License](https://img.shields.io/github/license/:user/:repo)
+[![License](https://shields.io)](https://github.com)
 
 # 16S_EndToEnd
 
