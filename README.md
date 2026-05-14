@@ -9,7 +9,7 @@
 ## 📖 Table of Contents
 
 - [Overview](#-overview)
-- [What is 16S rRNA gene sequencing?](#-What-is-16S-rRNA-gene-sequencing?)
+- [What is 16S rRNA gene sequencing?](#-what-is-16s-rrna-gene-sequencing)
 
 
 
