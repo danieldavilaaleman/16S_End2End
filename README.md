@@ -20,7 +20,10 @@ Ad-hoc scripting makes microbiome analyses error-prone, difficult to scale and h
 
 16S_EndToEnd performs:
 - Raw read quality control and trimming using **[FASTQC](https://github.com/s-andrews/fastqc)** and **[fastp](https://github.com/opengene/fastp)**.
-
+- ASV inference using **[DADA2](https://benjjneb.github.io/dada2/)**
+- Taxonomic classification against the **[SILVA version 138.2](https://benjjneb.github.io/dada2/training.html)** database.
+- Alpha and beta diversity analysis.
+- Differential abundance testing with **[MaAsLin3](https://huttenhower.sph.harvard.edu/maaslin3)***
 
 ## 📖 What is 16S rRNA gene sequencing?
 The 16S rRNA gene is highly conserved in all bacteria and archaea, making it a universal marker to identify microorganisms within a biological sample. The 16S rRNA gene sequencing is a widely used method to study microbial community composition and diversity.
