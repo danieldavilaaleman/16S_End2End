@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Static Badge](https://img.shields.io/badge/workflow-Snakemake-green?logo=Snakemake&link=https%3A%2F%2Fsnakemake.github.io) ![Static Badge](https://img.shields.io/badge/Analysis-16S%20Metagenomics-red)
 
 
-> A reproducible Snakemake workflow for 16S rRNA metagenomic data analysis and visualization.
+A reproducible Snakemake workflow for 16S rRNA metagenomic data analysis and visualization.
 
 ---
 
