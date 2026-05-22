@@ -86,7 +86,7 @@ Download instructions of the Raw FASTQ files are provided in [`data/README.md`](
 ```
 ---
 
-## ⚙️ Requirements and installation
+## 🚀 Installation
 
 ### Option 1 - Conda (Recommended)
 
