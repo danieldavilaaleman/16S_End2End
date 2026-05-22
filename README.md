@@ -11,6 +11,8 @@ A reproducible Snakemake workflow for 16S rRNA metagenomic data analysis and vis
 - [Overview](#-overview)
 - [What is 16S rRNA gene sequencing?](#-what-is-16s-rrna-gene-sequencing)
 - [Biological Question](#-biological-question)
+- [Dataset](#-dataset)
+- [Snakemake pipeline summary](#-snakemake-pipeline-summary)
 
 
 
@@ -77,65 +79,6 @@ Download instructions of the Raw FASTQ files are provided in [`data/README.md`](
                    |
                    ▼
              Visualization
-
-```
-## 📁 Repository Structure
-
-```
-16S_EndToEnd/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── data/
-│   ├── README.md               ← Download instructions for raw data
-│   ├── raw/                    ← Manifests and metadata only
-│   │   └── metadata.tsv
-│   └── processed/
-│       ├── asv_table.rds
-│       ├── taxonomy_table.rds
-│       └── phyloseq_object.rds
-│
-├── envs/
-│   ├── environment.yml         ← Conda environment (QIIME2 + tools)
-│   └── r_packages.R            ← R package installation script
-│
-├── workflow/
-│   ├── Snakefile               ← Full Snakemake pipeline
-│   └── config.yaml             ← User-defined parameters
-│
-├── scripts/
-│   ├── 01_quality_control.sh
-│   ├── 02_trimming.sh
-│   ├── 03_DADA2_denoising.R
-│   ├── 04_taxonomy_classification.sh
-│   ├── 05_phylogenetic_tree.sh
-│   ├── 06_diversity_analysis.R
-│   ├── 07_differential_abundance.R
-│   └── 08_visualizations.R
-│
-├── notebooks/
-│   ├── 01_QC_and_denoising.Rmd
-│   ├── 02_taxonomy_diversity.Rmd
-│   └── 03_differential_abundance.Rmd
-│
-├── results/
-│   ├── figures/
-│   │   ├── 01_read_quality_plots.png
-│   │   ├── 02_dada2_error_model.png
-│   │   ├── 03_taxonomy_barplot.png
-│   │   ├── 04_alpha_diversity.png
-│   │   ├── 05_beta_diversity_PCoA.png
-│   │   └── 06_differential_abundance.png
-│   └── tables/
-│       ├── asv_summary.tsv
-│       ├── taxonomy_summary.tsv
-│       └── differential_abundance_results.tsv
-│
-└── docs/
-    └── pipeline_diagram.png
-```
 
 
 
