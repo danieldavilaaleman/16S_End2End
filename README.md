@@ -15,7 +15,6 @@ A reproducible Snakemake workflow for 16S rRNA metagenomic data analysis and vis
 - [Snakemake pipeline summary](#-snakemake-pipeline-summary)
 - [Instalation](#-installation)
 - [Dependencies](#-dependencies)
-- [Usage](#-usage)
 - [Author](#-author)
 
 ---
