@@ -108,7 +108,7 @@ conda activate 16S_EndToEnd
 source("envs/r_packages.R")
 ```
 
-### 🛠️ Dependencies 
+## 🛠️ Dependencies 
 
 | Tool | Version | Analysis |
 |---|---|---|
