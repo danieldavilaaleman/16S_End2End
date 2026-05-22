@@ -40,7 +40,7 @@ This analysis focus on extends the findings from a publicly available study (PRJ
 - Differentially abundant taxa between groups.
 
 ## 📊 Dataset
-
+| | |
 |---|---|
 | Accession number | [PRJNA1406357](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1406357) |
 | Region | 16S rRNA gene amplicon sequencing targeting the V3-V4 regions |
