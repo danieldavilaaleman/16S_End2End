@@ -33,7 +33,9 @@ Ad-hoc scripting makes microbiome analyses error-prone, difficult to scale and h
 The 16S rRNA gene is highly conserved in all bacteria and archaea, making it a universal marker to identify microorganisms within a biological sample. The 16S rRNA gene sequencing is a widely used method to study microbial community composition and diversity.
 
 ##  🧪 Biological question?
-How does the gut microbiome composition differ between feeding tolerant and intolerant preterm infants? Data reference from: https://doi.org/10.1099/jmm.0.002138.
+As a test for 16S_EndToEnd pipeline I am using publicly available microbiome data to answer the question: How does the gut microbiome composition differ between feeding tolerant and intolerant preterm infants? Data reference from: https://doi.org/10.1099/jmm.0.002138. 
+
+**Note** that 16S_EndToEnd pipeline was developed to work on every 16S Amplicon sequencing data so you can use it with condifence 🧑‍💻
 
 This analysis focus on extends the findings from a publicly available study (PRJNA1406357):
 - Taxonomic shifts at phylum and genus level.
