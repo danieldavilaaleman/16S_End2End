@@ -6,7 +6,7 @@ A reproducible Snakemake workflow for 16S rRNA metagenomic data analysis and vis
 
 ---
 
-## 📖 Table of Contents
+## 📖 Table of contents
 
 - [Overview](#-overview)
 - [What is 16S rRNA gene sequencing?](#-what-is-16s-rrna-gene-sequencing)
@@ -88,7 +88,7 @@ Download instructions of the Raw FASTQ files are provided in [`data/README.md`](
 
 ## ⚙️ Requirements and installation
 
-### Option 1 — Conda (Recommended)
+### Option 1 - Conda (Recommended)
 
 ```bash
 # Clone the repository
@@ -100,7 +100,7 @@ conda env create -f envs/environment.yml
 conda activate 16S_EndToEnd
 ```
 
-### Option 2 — R packages only
+### Option 2 - R packages only
 
 ```r
 # Run from R console
