@@ -83,7 +83,43 @@ Download instructions of the Raw FASTQ files are provided in [`data/README.md`](
                    ▼
              Visualization
 ```
+---
 
+## ⚙️ Requirements & Installation
+
+### Option 1 — Conda (Recommended)
+
+```bash
+# Clone the repository
+git clone https://github.com/franciscodanieldavi/16S_EndToEnd.git
+cd 16S_EndToEnd
+
+# Create and activate the conda environment
+conda env create -f envs/environment.yml
+conda activate 16S_EndToEnd
+```
+
+### Option 2 — R packages only
+
+```r
+# Run from R console
+source("envs/r_packages.R")
+```
+
+### Dependencies Overview
+
+| Tool | Version | Purpose |
+|---|---|---|
+| DADA2 | 1.30 | ASV inference |
+| phyloseq | 1.46 | Microbiome data structures & analysis |
+| ggplot2 | 3.5 | Visualization |
+| fastp | 0.23 | Quality control and filtering |
+| MAFFT | 7.x | Multiple sequence alignment |
+| FastTree | 2.x | Phylogenetic tree inference |
+| MaAsLin3 | 3.x | Multivariable association analysis |
+| Snakemake | 8.x | Workflow management |
+
+---
 
 
 
