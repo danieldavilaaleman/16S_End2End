@@ -55,3 +55,26 @@ Download instructions of the Raw FASTQ files are provided in [`data/README.md`](
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## 👤 Author
+
+**Francisco Daniel Davi**
+🔗 GitHub: [@franciscodanieldavi](https://github.com/franciscodanieldavi)
+
+---
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
