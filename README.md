@@ -52,7 +52,31 @@ Download instructions of the Raw FASTQ files are provided in [`data/README.md`](
 ## 🐍 Snakemake pipeline summary
 
 ```
-Raw FASTQ data --> Quality Control (FastQC) --> Adapter and Quality trimming (Fastp) --> Denoising sequencing data (DADA2) --> Taxonomic classification (SILVA 138.2) --> Phylogenetic Tree (MAFFT + FastTree) --> Diversity Analysis (phyloseq) --> Differential Abundance (MaAsLin3) --> Visulaization
+Raw FASTQ data
+      |
+      v
+Quality Control (FastQC)
+      |
+      v
+Adapter and Quality trimming (Fastp)
+      |
+      v
+Denoising sequencing data (DADA2)
+      |
+      v
+Taxonomic classification (SILVA 138.2)
+      |
+      v
+Phylogenetic Tree (MAFFT + FastTree)
+      |
+      v
+Diversity Analysis (phyloseq)
+      |
+      v
+Differential Abundance (MaAsLin3)
+      |
+      v
+  Visulaization
 
 ```
 
