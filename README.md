@@ -49,8 +49,12 @@ This analysis focus on extends the findings from a publicly available study (PRJ
 
 Download instructions of the Raw FASTQ files are provided in [`data/README.md`](data/README.md).
 
+## 🐍 Snakemake pipeline summary
 
+```
+Raw FASTQ data --> Quality Control (FastQC) --> Adapter and Quality trimming (Fastp) --> Denoising sequencing data (DADA2) --> Taxonomic classification (SILVA 138.2) --> Phylogenetic Tree (MAFFT + FastTree) --> Diversity Analysis (phyloseq) --> Differential Abundance (MaAsLin3) --> Visulaization
 
+```
 
 
 
