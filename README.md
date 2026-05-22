@@ -30,5 +30,28 @@ Ad-hoc scripting makes microbiome analyses error-prone, difficult to scale and h
 ## 📖 What is 16S rRNA gene sequencing?
 The 16S rRNA gene is highly conserved in all bacteria and archaea, making it a universal marker to identify microorganisms within a biological sample. The 16S rRNA gene sequencing is a widely used method to study microbial community composition and diversity.
 
-##  Biological question?
+##  🧪 Biological question?
 How does the gut microbiome composition differ between feeding tolerant and intolerant preterm infants? Data reference from: https://doi.org/10.1099/jmm.0.002138.
+
+This analysis focus on extends the findings from a publicly available study (PRJNA1406357):
+- Taxonomic shifts at phylum and genus level.
+- Evaluate microbial diversity (alpha diversity).
+- Community-level compositional differences (beta diversity).
+- Differentially abundant taxa between groups.
+
+## 📊 Dataset
+
+|---|---|
+| Accession number | [PRJNA1406357](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1406357) |
+| Region | 16S rRNA gene amplicon sequencing targeting the V3-V4 regions |
+| Sequencing Platform | Illumina MiSeq (2x250 bp) |
+| Samples | 49 (34 from the feeding tolerant group and 15 from the feeding intolerant group) |
+
+Download instructions of the Raw FASTQ files are provided in [`data/README.md`](data/README.md).
+
+
+
+
+
+
+
