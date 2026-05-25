@@ -1,1 +1,3 @@
-Snakefile config
+ # This file tells Snakamake where your sample sheet is
+ sample_sheet: "data/sample_sheet.csv"
+ 
