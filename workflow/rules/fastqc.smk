@@ -12,3 +12,4 @@ rule fastqc_raw:
         """
         mkdir -p results/fastqc/raw
         fastqc {input.fq1} {input.fq2} --outdir results/fastqc/raw --threads {threads}
+        """
