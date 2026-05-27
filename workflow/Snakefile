@@ -4,7 +4,7 @@ configfile : "config/config.yaml"
 import pandas as pd
 
 # Read the sample sheet into a pandas DataFrame
-pd.read_csv(config["sample_sheet"]).set_index("sample", drop=False) # make row names of the pandas dataframe as the sample names
+samples = pd.read_csv(config["sample_sheet"]).set_index("sample", drop=False) # make row names of the pandas dataframe as the sample names
 
 # Create a list of sample names
 SAMPLES = samples.index.tolist() # This converts the pandas index (sample names) into a normal Python list - Get all sample names from the sample sheet
