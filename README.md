@@ -92,7 +92,7 @@ Download instructions of the Raw FASTQ files are provided in [`data/README.md`](
 
 ```bash
 # Clone the repository
-git clone https://github.com/franciscodanieldavi/16S_EndToEnd.git
+git clone https://github.com/danieldavilaaleman/16S_EndToEnd.git
 cd 16S_EndToEnd
 
 # Create and activate the conda environment
