@@ -1,0 +1,19 @@
+# Here is where you define the config file - read the sample sheet - define the list of sample names - include th eFastQC rule 
+configfile : "config/config.yaml"
+
+import pandas as pd
+
+# Read the sample sheet into a pandas DataFrame
+pd.read_csv(config["sample_sheet"]).set_index("sample", drop=False) # make row names of the pandas dataframe as the sample names
+
+# Create a list of sample names
+SAMPLES = samples.index.tolist() # This converts the pandas index (sample names) into a normal Python list - Get all sample names from the sample sheet
+
+# Include rule files
+include: "rules/fastqc.smk"
+
+# Final rule
+rule all:
+	input:
+		expand("results/fastqc/raw/{sample}_R1_fastqc.html", sample=SAMPLES),
+		expand("results/fastqc/raw/{sample}_R2_fastqc.html", sample=SAMPLES)
