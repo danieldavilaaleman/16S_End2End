@@ -97,7 +97,7 @@ cd 16S_EndToEnd
 
 # Create and activate the conda environment
 conda env create -f envs/environment.yml
-conda activate 16S_EndToEnd
+conda activate 16s_end2end
 ```
 
 ### Option 2 - R packages only
