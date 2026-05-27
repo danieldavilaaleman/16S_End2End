@@ -1,0 +1,8 @@
+name: 16s_end2end
+channels:
+ - conda-forge
+ - bioconda
+dependencies:
+ - python=3.11
+ - snakemake=9.20
+ - pandas=2.2
