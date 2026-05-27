@@ -22,7 +22,7 @@ A reproducible Snakemake workflow for 16S rRNA metagenomic data analysis and vis
 
 Ad-hoc scripting makes microbiome analyses error-prone, difficult to scale and hard to reproduce. To solve this, 16S_End2End uses Snakemake to provide a fully automated and scalable workflow that processes raw 16S sequencing FASTQ files into publication-ready figures.
 
-16S_EndToEnd performs:
+16S_End2End performs:
 - Raw read quality control and trimming using **[FASTQC](https://github.com/s-andrews/fastqc)** and **[fastp](https://github.com/opengene/fastp)**.
 - ASV inference using **[DADA2](https://benjjneb.github.io/dada2/)**
 - Taxonomic classification against the **[SILVA version 138.2](https://benjjneb.github.io/dada2/training.html)** database.
@@ -35,9 +35,9 @@ Ad-hoc scripting makes microbiome analyses error-prone, difficult to scale and h
 The 16S rRNA gene is highly conserved in all bacteria and archaea, making it a universal marker to identify microorganisms within a biological sample. The 16S rRNA gene sequencing is a widely used method to study microbial community composition and diversity.
 
 ##  🧪 Biological question?
-As a test for 16S_EndToEnd pipeline I am using publicly available microbiome data to answer the question: How does the gut microbiome composition differ between feeding tolerant and intolerant preterm infants? Data reference from: https://doi.org/10.1099/jmm.0.002138. 
+As a test for 16S_End2End pipeline I am using publicly available microbiome data to answer the question: How does the gut microbiome composition differ between feeding tolerant and intolerant preterm infants? Data reference from: https://doi.org/10.1099/jmm.0.002138. 
 
-**Note** that 16S_EndToEnd pipeline was developed to work on every 16S Amplicon sequencing data so you can use it with condifence 🧑‍💻
+**Note** that 16S_End2End pipeline was developed to work on every 16S Amplicon sequencing data so you can use it with condifence 🧑‍💻
 
 This analysis focus on extends the findings from a publicly available study (PRJNA1406357):
 - Taxonomic shifts at phylum and genus level.
@@ -92,8 +92,8 @@ Download instructions of the Raw FASTQ files are provided in [`data/README.md`](
 
 ```bash
 # Clone the repository
-git clone https://github.com/danieldavilaaleman/16S_EndToEnd.git
-cd 16S_EndToEnd
+git clone https://github.com/danieldavilaaleman/16S_End2End.git
+cd 16S_End2End
 
 # Create and activate the conda environment
 conda env create -f envs/environment.yml
