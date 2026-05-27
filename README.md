@@ -20,7 +20,7 @@ A reproducible Snakemake workflow for 16S rRNA metagenomic data analysis and vis
 ---
 ## 🔬 Overview
 
-Ad-hoc scripting makes microbiome analyses error-prone, difficult to scale and hard to reproduce. To solve this, 16S_EndToEnd uses Snakemake to provide a fully automated and scalable workflow that processes raw 16S sequencing FASTQ files into publication-ready figures.
+Ad-hoc scripting makes microbiome analyses error-prone, difficult to scale and hard to reproduce. To solve this, 16S_End2End uses Snakemake to provide a fully automated and scalable workflow that processes raw 16S sequencing FASTQ files into publication-ready figures.
 
 16S_EndToEnd performs:
 - Raw read quality control and trimming using **[FASTQC](https://github.com/s-andrews/fastqc)** and **[fastp](https://github.com/opengene/fastp)**.
