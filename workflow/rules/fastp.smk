@@ -12,5 +12,5 @@ rule fastp_trim:
         """
         mkdir -p results/fastp/
         fastp -i {input.fq1} -I {input.fq2} -o {output.clean_r1} -O {output.clean_r2} --threads {threads} \
-        -e 20 -2 --correction
+        -e 20 -2 --correction --json {wildcards.sample}.json --html {wildcards.sample}.html
 	    """
