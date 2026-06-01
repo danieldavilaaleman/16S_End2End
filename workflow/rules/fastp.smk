@@ -8,6 +8,8 @@ rule fastp_trim:
     conda:
         "../../envs/fastp.yaml"
     threads: 24
+	log:
+		"logs/{sample}.log"
     shell:
         """
         mkdir -p results/fastp/
