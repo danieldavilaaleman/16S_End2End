@@ -1,4 +1,4 @@
-# How to run this pipeline?
+# Which are the pipeline parameters?
 ## Step 1 - Fastq
 i.  FastQC obtain the input files defined in `sample_sheet.csv`
 
