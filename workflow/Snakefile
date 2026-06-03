@@ -16,4 +16,6 @@ include: "rules/fastqc.smk"
 rule all:
 	input:
 		expand("results/fastqc/raw/{sample}_R1_fastqc.html", sample=SAMPLES),
+		expand("results/fastqc/raw/{sample}_R2_fastqc.html", sample=SAMPLES),
+		expand("results/fastqc/raw/{sample}_R1_fastqc.html", sample=SAMPLES),
 		expand("results/fastqc/raw/{sample}_R2_fastqc.html", sample=SAMPLES)
