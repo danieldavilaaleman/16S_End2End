@@ -4,7 +4,7 @@
 ## 📖 Table of contents
 
 - [FastQC](#-fastqc)
-- [What is 16S rRNA gene sequencing?](#-what-is-16s-rrna-gene-sequencing)
+- [Fastp](#-fastp)
 - [Biological Question](#-biological-question)
 - [Dataset](#-dataset)
 - [Snakemake pipeline summary](#-snakemake-pipeline-summary)
