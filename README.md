@@ -27,7 +27,7 @@ Ad-hoc scripting makes microbiome analyses error-prone, difficult to scale and h
 - ASV inference using **[DADA2](https://benjjneb.github.io/dada2/)**
 - Taxonomic classification against the **[SILVA version 138.2](https://benjjneb.github.io/dada2/training.html)** database.
 - Alpha and beta diversity analysis.
-- Phylogenetic tree generation using **[MAFFT](https://github.com/GSLBiotech/mafft)** and **[FastTree](https://github.com/morgannprice/fasttree)**
+- Phylogenetic tree generation using **[DECIPHER](https://decipher.codes)** and **[phangorn](https://klausvigo.github.io/phangorn/)**
 - Differential abundance testing with **[MaAsLin3](https://huttenhower.sph.harvard.edu/maaslin3)**.
 - Visualizations generations.
 
