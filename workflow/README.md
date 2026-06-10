@@ -3,7 +3,7 @@
 
 ## 📖 Table of contents
 
-- [Overview](##-fastqc)
+- [FastQC](#-fastqc)
 - [What is 16S rRNA gene sequencing?](#-what-is-16s-rrna-gene-sequencing)
 - [Biological Question](#-biological-question)
 - [Dataset](#-dataset)
