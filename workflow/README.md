@@ -1,6 +1,6 @@
 # 📈 How to set pipeline parameters?
 ## 📊 - FastQC -
-1.  FastQC obtain the input files defined in `sample_sheet.csv`
+1.  [FastQC](https://github.com/s-andrews/fastqc) obtain the input files defined in `sample_sheet.csv`
 
 2.  Outputs go to `results/fastqc/raw/`
 
