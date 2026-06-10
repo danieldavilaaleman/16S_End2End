@@ -1,12 +1,12 @@
-# How to set pipeline parameters?
-## - FastQC -
+# 📈 How to set pipeline parameters?
+## 📊 - FastQC -
 1.  FastQC obtain the input files defined in `sample_sheet.csv`
 
 2.  Outputs go to `results/fastqc/raw/`
 
 3.  The report generated will help you to define downstream decisions
 
-## - Fastp -
+## ✂️ - Fastp -
 Fastp is a tool designed to provide ultrafast preprocessing and quality control for Fastq data. You can modify this values directly on the shell script on `workflows/rules/fastp.smk`
 
 1. `-e` => filter reads by its average quality score\n
@@ -19,7 +19,7 @@ Fastp is a tool designed to provide ultrafast preprocessing and quality control 
 
 5. `--html` => html report file name
 
-## - DADA2 -
+## 🧬 - DADA2 -
 This step utilizes DADA2 to infer the exact amplicon sequence variants (ASVs) present in each sample.
 
 1. The  `dada2.smk` workflow automatically calculates the optimum truncation length based on a minimum quality score threshold `q_threshold`. You can set this threshold in the `config/config/yaml` file. Default value is = `30`.
@@ -28,7 +28,7 @@ This step utilizes DADA2 to infer the exact amplicon sequence variants (ASVs) pr
 
 3. This step will output the final ASV table, taxonomy assignments, quality profile plots, and error rates plot.
 
-## - Phyloseq -
+## 🦠 - Phyloseq -
 This step integrated the output from DADA2 with your sample metadata `data/sample_sheet.csv` to perform ecological analyses (alpha and beta diversity) using the `phyloseq` package.
 
 1. The `phyloseq.smk` workflow merges the generated ASV table, taxonomy assignments, and sample metadata sheet into a `phyloseq` object (`ps_object.rbs`).
