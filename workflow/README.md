@@ -32,5 +32,5 @@ This step utilizes DADA2 to infer the exact amplicon sequence variants (ASVs) pr
 This step integrated the output from DADA2 with your sample metadata `data/sample_sheet.csv` to perform ecological analyses (alpha and beta diversity) using the `phyloseq` package.
 
 1. The `phyloseq.smk` workflow merges the generated ASV table, taxonomy assignments, and sample metadata sheet into a `phyloseq` object (`ps_object.rbs`).
-2. Generates alpha diversity plot based on your specific experimental design. You can modify x-axis groupping (``plot_richness_x_axis), diversity metrics (`alpha_measures`), and color-coding variable (`alpha_color`) directly in the `config.yaml` files.
+2. Generates alpha diversity plot based on your specific experimental design. You can modify x-axis groupping (`plot_richness_x_axis`), diversity metrics (`alpha_measures`), and color-coding variable (`alpha_color`) directly in the `config.yaml` files.
 3. Computes distance matrices and output an ordination plot using NMDS and Bray-Curtis methods as default.
