@@ -5,9 +5,9 @@ channels:
   - defaults
 
 dependencies:
-  - r-base
-  - bioconductor-phyloseq
-  - r-dplyr
-  - r-vegan
-  - bioconductor-Biostrings
-  - r-ggplot2
+  - r-base=4.5.3
+  - bioconductor-phyloseq=1.54.0
+  - r-dplyr=1.2.1
+  - r-vegan=2.7-5
+  - bioconductor-Biostrings=2.78.0
+  - r-ggplot2=4.0.3
