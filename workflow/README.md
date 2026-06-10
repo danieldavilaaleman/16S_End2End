@@ -5,8 +5,8 @@
 
 - [FastQC](#-fastqc)
 - [Fastp](#-fastp)
-- [Biological Question](#-biological-question)
-- [Dataset](#-dataset)
+- [DADA2](#-dada2)
+- [phyloseq](#-phyloseq)
 - [Snakemake pipeline summary](#-snakemake-pipeline-summary)
 - [Instalation](#-installation)
 - [Dependencies](#-dependencies)
@@ -42,7 +42,7 @@ This step utilizes [DADA2](https://benjjneb.github.io/dada2/) to infer the exact
 
 3. This step will output the final ASV table, taxonomy assignments, quality profile plots, and error rates plot.
 
-## 🦠 - Phyloseq -
+## 🦠 - phyloseq -
 This step integrated the output from DADA2 with your sample metadata `data/sample_sheet.csv` to perform ecological analyses (alpha and beta diversity) using the [phyloseq](https://joey711.github.io/phyloseq/) package.
 
 1. The `phyloseq.smk` workflow merges the generated ASV table, taxonomy assignments, and sample metadata sheet into a `phyloseq` object (`ps_object.rbs`).
