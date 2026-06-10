@@ -1,0 +1,13 @@
+name: phyloseq-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - r-base
+  - bioconductor-phyloseq
+  - r-dplyr
+  - r-vegan
+  - bioconductor-Biostrings
+  - r-ggplot2
