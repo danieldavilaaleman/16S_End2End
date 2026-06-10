@@ -1,4 +1,18 @@
 # 📈 How to set pipeline parameters?
+
+
+## 📖 Table of contents
+
+- [Overview](##-fastqc)
+- [What is 16S rRNA gene sequencing?](#-what-is-16s-rrna-gene-sequencing)
+- [Biological Question](#-biological-question)
+- [Dataset](#-dataset)
+- [Snakemake pipeline summary](#-snakemake-pipeline-summary)
+- [Instalation](#-installation)
+- [Dependencies](#-dependencies)
+- [Author](#-author)
+
+
 ## 📊 - FastQC -
 1.  [FastQC](https://github.com/s-andrews/fastqc) obtain the input files defined in `sample_sheet.csv`
 
