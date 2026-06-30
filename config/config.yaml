@@ -1,3 +1,17 @@
- # This file tells Snakamake where your sample sheet is
+  # This file tells Snakamake where your sample sheet is
  sample_sheet: "data/sample_sheet.csv"
- 
+
+ # This is DADA2 filtering parameters
+ dada2:
+  q_threshold: 30 # Min Q score for truncLen  
+  window_size: 5  # Number of bases to calculate Q score mean
+
+ # This is phyloseq parameters fro Alpha and Beta diversity
+ phyloseq:
+   plot_richness_x_axis: "tolerant" # Plot using Sample sheet metadata category as X axis
+   alpha_measures:
+     - "Observed"
+     - "Shannon"
+   alpha_color: "tolerant" # Color the data dots by this metadata category
+   tax_level: "Family"
+   barPlot_x_axis: "sample"
