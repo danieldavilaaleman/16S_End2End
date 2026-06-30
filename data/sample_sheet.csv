@@ -1,3 +1,6 @@
-sample,fq1,fq2
-S1,data/raw/S1_R1.fastq.gz,data/raw/S1_R2.fastq.gz
-S2,data/raw/S2_R1.fastq.gz,data/raw/S2_R2.fastq.gz
+sample,fq1,fq2,tolerant
+SRR36944812,data/raw/SRR36944812_R1.fastq.gz,data/raw/SRR36944812_R2.fastq.gz,yes
+SRR36944815,data/raw/SRR36944815_R1.fastq.gz,data/raw/SRR36944815_R2.fastq.gz,yes
+SRR36944827,data/raw/SRR36944827_R1.fastq.gz,data/raw/SRR36944827_R2.fastq.gz,no
+SRR36944829,data/raw/SRR36944829_R1.fastq.gz,data/raw/SRR36944829_R2.fastq.gz,no
+SRR36944831,data/raw/SRR36944831_R1.fastq.gz,data/raw/SRR36944831_R2.fastq.gz,no
